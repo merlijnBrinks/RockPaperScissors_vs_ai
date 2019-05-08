@@ -1,3 +1,6 @@
+function myFunction() {
+
+
 let inputForRockPaperScissors = prompt("choose input: Rock, Paper or Scissors. (use capital)", "Rock")
 // ask for input
 let aiInput = Math.floor((Math.random() * 3) + 1)
@@ -59,5 +62,4 @@ else {
   console.log("error 404 input not found")
 }
 
-
-
+}
