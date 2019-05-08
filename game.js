@@ -16,50 +16,50 @@ else if (aiInput === 3) {
   aiInput = "scissor"
 }
 else {
-  console.log("error404: ai Input not found")
+  document.getElementById("result").innerHTML = "error404: ai Input not found";
 }
 
 if (inputForRockPaperScissors === "Rock" && aiInput === "paper") {
-  console.log("You lost. ai's input was " + aiInput)
+  document.getElementById("result").innerHTML = "You lost";
 }
 else if (inputForRockPaperScissors === "Rock" && aiInput === "scissor") {
-  console.log("You won!!! ai's input was " + aiInput)
+  document.getElementById("result").innerHTML = "You won!!!";
 }
 else if (inputForRockPaperScissors === "Rock" && aiInput === "rock") {
-  console.log("It's a draw!")
+  document.getElementById("result").innerHTML = "It's a draw";
 }
 else if (inputForRockPaperScissors === "Paper" && aiInput === "paper") {
-  console.log("It's a draw!")
+  document.getElementById("result").innerHTML = "It's a draw";
 }
 else if (inputForRockPaperScissors === "Paper" && aiInput === "rock") {
-  console.log("You won!!! ai's input was " + aiInput)
+  document.getElementById("result").innerHTML = "You won!!!";
 }
 else if (inputForRockPaperScissors === "Paper" && aiInput === "scissor") {
-  console.log("You lost. ai's input was " + aiInput)
+  document.getElementById("result").innerHTML = "You lost";
 }
 else if (inputForRockPaperScissors === "Scissors" && aiInput === "paper") {
-  console.log("You won!!! ai's input was " + aiInput)
+  document.getElementById("result").innerHTML = "You won!!!!";
 }
 else if (inputForRockPaperScissors === "Scissors" && aiInput === "rock") {
-  console.log("You lost. ai's input was " + aiInput)
+  document.getElementById("result").innerHTML = "You lost";
 }
 else if (inputForRockPaperScissors === "Scissors" && aiInput === "scissor") {
-  console.log("It's a draw!")
+  document.getElementById("result").innerHTML = "It's a draw!";
 }
 else if (inputForRockPaperScissors === "scissor") {
-  console.log("Please use capital")
+  document.getElementById("result").innerHTML = "Please use capital";
 }
 else if (inputForRockPaperScissors === "paper") {
-  console.log("Please use capital")
+  document.getElementById("result").innerHTML = "Please use capital";
 }
 else if (inputForRockPaperScissors === "rock") {
-  console.log("Please use capital")
+  document.getElementById("result").innerHTML = "Please use capital";
 }
 else if (inputForRockPaperScissors === "scissor") {
-  console.log("Please use capital and add an s at the end when using scissors")
+  document.getElementById("result").innerHTML = "Please use capital and add an s at the end when using scissors";
 }
 else {
-  console.log("error 404 input not found")
+  document.getElementById("result").innerHTML = "error";
 }
 
 }
