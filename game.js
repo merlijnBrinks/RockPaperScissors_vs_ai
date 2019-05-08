@@ -13,7 +13,7 @@ else if (aiInput === 2) {
   aiInput = "rock"
 }
 else if (aiInput === 3) {
-  aiInput = "scissor"
+  aiInput = "scissors"
 }
 else {
   document.getElementById("result").innerHTML = "error404: ai Input not found";
@@ -22,7 +22,7 @@ else {
 if (inputForRockPaperScissors === "Rock" && aiInput === "paper") {
   document.getElementById("result").innerHTML = "You lost";
 }
-else if (inputForRockPaperScissors === "Rock" && aiInput === "scissor") {
+else if (inputForRockPaperScissors === "Rock" && aiInput === "scissors") {
   document.getElementById("result").innerHTML = "You won!!!";
 }
 else if (inputForRockPaperScissors === "Rock" && aiInput === "rock") {
@@ -34,7 +34,7 @@ else if (inputForRockPaperScissors === "Paper" && aiInput === "paper") {
 else if (inputForRockPaperScissors === "Paper" && aiInput === "rock") {
   document.getElementById("result").innerHTML = "You won!!!";
 }
-else if (inputForRockPaperScissors === "Paper" && aiInput === "scissor") {
+else if (inputForRockPaperScissors === "Paper" && aiInput === "scissors") {
   document.getElementById("result").innerHTML = "You lost";
 }
 else if (inputForRockPaperScissors === "Scissors" && aiInput === "paper") {
@@ -43,10 +43,10 @@ else if (inputForRockPaperScissors === "Scissors" && aiInput === "paper") {
 else if (inputForRockPaperScissors === "Scissors" && aiInput === "rock") {
   document.getElementById("result").innerHTML = "You lost";
 }
-else if (inputForRockPaperScissors === "Scissors" && aiInput === "scissor") {
+else if (inputForRockPaperScissors === "Scissors" && aiInput === "scissors") {
   document.getElementById("result").innerHTML = "It's a draw!";
 }
-else if (inputForRockPaperScissors === "scissor") {
+else if (inputForRockPaperScissors === "scissors") {
   document.getElementById("result").innerHTML = "Please use capital";
 }
 else if (inputForRockPaperScissors === "paper") {
