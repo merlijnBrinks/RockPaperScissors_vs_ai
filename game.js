@@ -59,7 +59,7 @@ else if (inputForRockPaperScissors === "scissor") {
   document.getElementById("result").innerHTML = "Please use capital and add an s at the end when using scissors";
 }
 else {
-  document.getElementById("result").innerHTML = "error";
+  document.getElementById("result").innerHTML = "Please use a valid input...";
 }
 
 }
