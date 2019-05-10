@@ -1,4 +1,41 @@
 
 html {
-  background: blue;
+    background: #d11717;
+  
+}
+
+p {
+ font-family: "Arial";
+    font-size: 50px;
+        float: left;
+    width: 100%;
+    top: 5%;
+    text-align: center;
+    
+}
+
+#play {
+    float: left;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+button {
+  background-color: #a511ad;
+  border: none;
+  color: white;
+  padding: 2% 8%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#banner {
+ width:  145px;
+    height: 100px;
+    position: fixed;
+    float: left;
+    left: 45%
 }
