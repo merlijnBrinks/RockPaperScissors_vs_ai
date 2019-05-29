@@ -1,6 +1,6 @@
 
 html {
-    background: #d11717;
+    background: #EFE2BA;
   
 }
 
@@ -19,11 +19,17 @@ p {
   animation: mymove 1s infinite;
 }
 
+#streak_div {
+    position: fixed;
+    float: right;
+    
+}
+
 
 
 
 button {
-  background-color: #a511ad;
+  background-color: #B5CCE3;
   border: none;
   color: white;
   padding: 2% 8%;
@@ -33,10 +39,11 @@ button {
   font-size: 16px;
     font-family: "Arial";
     overflow: hidden;
+    color: black;
 }
 button:after {
   content: "";
-  background: #D551a5;
+  background: #5CAAAC;
   display: block;
   position: absolute;
   padding-top: 300%;
@@ -55,11 +62,11 @@ button:active:after {
 }
 
 #banner {
- width:  145px;
-    height: 100px;
-    position: fixed;
+ width:  230px;
+    height: 180px;
+    padding-left: 42%;
     float: left;
-    left: 45%
+    left: 45%;
 }
 #result {
     float: left;
@@ -67,9 +74,23 @@ button:active:after {
     height: 20%;
     text-align: center;
 }
+#resultPlacement {
+ top: 5%;   
+}
 
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
   50% {opacity: 0.5;}
+}
+
+#streak {
+ margin: 300%;   
+}
+
+#div_3 {
+  height: 190px;
+  width: calc(100% / 3.02);
+  display: inline-block;
+  text-align: center;
 }
