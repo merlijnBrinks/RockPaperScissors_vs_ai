@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="game.js"></script>
+
+</head>
+
+<body>
+    <div id="streak_div">
+        <p id="streak" style="font-size:20px">Current streak: 0</p>
+    </div>
+    
+    <div id="streakMax_div">
+        <p id="streakMax" style="font-size:20px">Biggest streak: 0</p>
+    </div>
+    
+    
+    <div id="input" class="containter">
+        <div id="rockIn" class="imgRock image"><img id="rockInput" src="Rock.jpg" border="0" /></div>
+        <div id="paperIn" class="imgPaper image"><img id="paperInput" src="Paper.jpg" border="0" /></div>
+        <div id="scissorsIn" class="imgScissors image"><img id="scissorsInput" src="Scissors.jpg" border="0" /></div>
+    </div>
+    
+    <div class="parent">
+        <div class="ai"><img id="rockAi" src="Rock.jpg" border="0" /></div>
+        <div class="ai"><img id="paperAi" src="Paper.jpg" border="0" /></div>
+        <div class="ai"><img id="scissorsAi" src="Scissors.jpg" border="0" /></div>
+    </div>
+    
+    <div id="banner_div">
+        <img id="banner" src="RPSbanner.png">
+    </div>
+    
+    <div id="resultPlacement">
+        <p id="result">Will you lose or are you going to win?</p>
+    </div>
+
+    
+    
+    <div id="div_3">
+        <a href="javascript:void(0);" onclick="setRock();"><img id="Rock" src="Rock.jpg" border="0" onload="$(this).fadeIn();" /></a>
+    </div>
+    <div id="div_3">
+        <a href="javascript:void(0);" onclick="setPaper();"><img id="Paper" src="Paper.jpg" border="0" onload="$(this).fadeIn();" /></a>
+    </div>
+    <div id="div_3">
+        <a href="javascript:void(0);" onclick="setScissors();"><img id="Scissors" src="Scissors.jpg" border="0" onload="$(this).fadeIn();" /></a>
+    </div>
+</body>
+</html>

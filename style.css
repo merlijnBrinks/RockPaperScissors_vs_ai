@@ -1,0 +1,122 @@
+html {
+	background: #EFE6DF;
+}
+
+p {
+	font-family: "Arial";
+	font-size: 50px;
+}
+
+.container {
+	position: relative;
+}
+
+.containerOut {
+	position: relative;
+}
+
+.image {
+	position: absolute;
+	width: calc(100% / 3.02);
+	height: 190px;
+	border: 0;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+.ai {
+	position: absolute;
+}
+
+.parent {
+	position: absolute;
+	float: right;
+	width: calc(100% / 3.02);
+	height: 190px;
+	border: 0;
+	margin-left: 65%;
+	margin-top: 1%;
+}
+
+#streak_div {
+	padding-top: 10%;
+	position: fixed;
+	float: right;
+}
+
+#streakMax_div {
+	position: fixed;
+	float: left;
+}
+
+#Rock {
+	height: 100%;
+	width: 45%;
+}
+
+#Paper {
+	height: 100%;
+	width: 45%;
+}
+
+#Scissors {
+	height: 100%;
+	width: 45%;
+}
+
+#rockInput {
+	height: 100%;
+	width: 45%;
+}
+
+#paperInput {
+	height: 100%;
+	width: 45%;
+}
+
+#scissorsInput {
+	height: 100%;
+	width: 45%;
+}
+
+#rockAi {
+	height: 100%;
+	width: 45%;
+}
+
+#paperAi {
+	height: 100%;
+	width: 45%;
+}
+
+#scissorsAi {
+	height: 100%;
+	width: 45%;
+}
+
+#banner {
+	width: 230px;
+	height: 180px;
+	padding-left: 42%;
+	float: left;
+	left: 45%;
+}
+
+#result {
+	float: left;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+
+#resultPlacement {
+	top: 5%;
+}
+
+#div_3 {
+	height: 190px;
+	width: calc(100% / 3.02);
+	display: inline-block;
+	text-align: center;
+	border: 0;
+}
