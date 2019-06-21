@@ -465,5 +465,5 @@ function onKonamiCode(cb) {
 }
 
 onKonamiCode(function() {
-    alert('SECRET!!!!!')
+    window.open("https://www.youtube.com/watch?v=zwZISypgA9M");
 })
